@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import {
   BrowserRouter,
   Route,
@@ -56,7 +56,7 @@ function NotFound() {
 
 export function App() {
   return (
-    <BrowserRouter basename="/Cybertec-Web-Application">
+    <BrowserRouter basename={import.meta.env.BASE_URL.replace(/\/$/, "")}>
       <div className="flex min-h-screen w-full flex-col bg-white">
         <ScrollToTop />
 

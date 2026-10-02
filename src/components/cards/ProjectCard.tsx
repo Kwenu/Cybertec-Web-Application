@@ -1,4 +1,3 @@
-import React from "react";
 import { Project } from "../../types/catalogue";
 import { categoryById } from "../../data/categories";
 

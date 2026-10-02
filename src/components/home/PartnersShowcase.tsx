@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { Section } from '../ui/Section';
 import { SectionHeading } from '../ui/SectionHeading';

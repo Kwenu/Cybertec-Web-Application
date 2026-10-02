@@ -1,5 +1,3 @@
-import React from 'react';
-
 interface SectionProps {
   children: React.ReactNode;
   tone?: 'white' | 'light' | 'navy' | 'deep';

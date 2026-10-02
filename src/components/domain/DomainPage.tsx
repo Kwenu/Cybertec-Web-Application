@@ -1,4 +1,3 @@
-import React from 'react';
 import { CheckIcon } from 'lucide-react';
 import { PageHero } from '../layout/PageHero';
 import { Section } from '../ui/Section';

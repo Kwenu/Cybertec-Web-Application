@@ -1,4 +1,4 @@
-import React from "react";
+import { asset } from "../../utils/asset";
 import { Link } from "react-router-dom";
 import { MailIcon, GlobeIcon, MapPinIcon, PhoneIcon } from "lucide-react";
 import { categories } from "../../data/categories";
@@ -147,7 +147,7 @@ export function Footer() {
               className="inline-flex items-center"
             >
               <img
-                src="/Lingo.png"
+                src={asset("Lingo.png")}
                 alt="Lingo"
                 className="h-9 w-auto mr-3 ml-[-8px] object-contain"
               />

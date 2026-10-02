@@ -1,4 +1,3 @@
-import React from 'react';
 import { ActionLink } from '../ui/ActionLink';
 import { FlowChain } from '../visuals/FlowChain';
 

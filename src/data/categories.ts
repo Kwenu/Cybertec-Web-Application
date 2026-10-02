@@ -1,3 +1,4 @@
+import { asset } from "../utils/asset";
 import { ProductCategory } from '../types/catalogue';
 
 export const categories: ProductCategory[] = [
@@ -8,7 +9,7 @@ export const categories: ProductCategory[] = [
   shortTitle: 'Telecommunication',
   description:
   'Distribution frames, connectivity, access and protection technology from KRONE, TE Connectivity, LG-Ericsson and Sankosha.',
-  image: "/3375e836-9ae9-459c-913c-8bb2301ba363.jpg",
+  image: asset("3375e836-9ae9-459c-913c-8bb2301ba363.jpg"),
 
   scope: [
   'Telecommunication infrastructure equipment',
@@ -26,7 +27,7 @@ export const categories: ProductCategory[] = [
   shortTitle: 'Broadcasting',
   description:
   'Compression, transport and transmission technology from Harmonic, GatesAir, Scientific Atlanta, ATEME and more.',
-  image: "/2275d752-b30e-4ec8-bb13-9efdc692bf8b.jpg",
+  image: asset("2275d752-b30e-4ec8-bb13-9efdc692bf8b.jpg"),
 
   scope: [
   'Broadcast infrastructure',
@@ -45,7 +46,7 @@ export const categories: ProductCategory[] = [
   shortTitle: 'Enterprise Networking',
   description:
   'Switching, routing and IP communication systems from Cisco and Huawei for utility, government and campus networks.',
-  image: "/8126f08d-b35f-4e6d-b78c-6ea7d945246b.jpg",
+  image: asset("8126f08d-b35f-4e6d-b78c-6ea7d945246b.jpg"),
 
   scope: [
   'Core networking',
@@ -64,7 +65,7 @@ export const categories: ProductCategory[] = [
   shortTitle: 'Solar & Agriculture',
   description:
   'Potential product categories and solution areas for solar-powered agricultural operations.',
-  image: "/283d1c79-7202-468a-9033-b197f0f5b2e8.jpg",
+  image: asset("283d1c79-7202-468a-9033-b197f0f5b2e8.jpg"),
 
   scope: [
   'Solar panels',
@@ -84,7 +85,7 @@ export const categories: ProductCategory[] = [
   shortTitle: 'Infrastructure',
   description:
   'Optical fibre cable, fibre accessories and passive infrastructure — including Sterlite, CommScope and CyberLink.',
-  image: "/WhatsApp_Image_2026-09-10_at_20.34.13.jpg",
+  image: asset("WhatsApp_Image_2026-09-10_at_20.34.13.jpg"),
 
   imagePosition: 'object-top',
   scope: [
@@ -103,7 +104,7 @@ export const categories: ProductCategory[] = [
   shortTitle: 'Specialized Solutions',
   description:
   'Test and measurement, power-system testing and project-specific technology sourced on request.',
-  image: "/1d2bc14a-94da-444d-8035-8c4e550e2b15.jpg",
+  image: asset("1d2bc14a-94da-444d-8035-8c4e550e2b15.jpg"),
 
   scope: [
   'Project-specific technology sourcing',

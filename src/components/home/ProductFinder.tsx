@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { SearchIcon } from 'lucide-react';
 import { categories } from '../../data/categories';

@@ -1,4 +1,4 @@
-import React from 'react';
+import { asset } from "../../utils/asset";
 import { GlobeIcon, TargetIcon, TruckIcon, WrenchIcon } from 'lucide-react';
 import { Section } from '../ui/Section';
 import { ActionLink } from '../ui/ActionLink';
@@ -6,7 +6,7 @@ import { sourcingBenefits } from '../../data/site';
 
 const icons = [GlobeIcon, TargetIcon, TruckIcon, WrenchIcon];
 
-const IMAGE = "/a321aa6a-8254-4cb9-93a9-eb9f109a57a6.jpg";
+const IMAGE = asset("a321aa6a-8254-4cb9-93a9-eb9f109a57a6.jpg");
 
 
 export function SourcingPartner() {

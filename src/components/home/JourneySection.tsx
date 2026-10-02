@@ -1,4 +1,3 @@
-import React from 'react';
 import { Section } from '../ui/Section';
 import { SectionHeading } from '../ui/SectionHeading';
 import { SupplyJourney } from '../visuals/SupplyJourney';

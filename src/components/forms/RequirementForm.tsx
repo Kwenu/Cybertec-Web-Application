@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { CheckCircle2Icon, Loader2Icon } from 'lucide-react';
 import { categories } from '../../data/categories';
 import { products } from '../../data/products';

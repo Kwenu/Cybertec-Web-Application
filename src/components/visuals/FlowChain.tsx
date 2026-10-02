@@ -1,4 +1,3 @@
-import React from 'react';
 import { ChevronRightIcon } from 'lucide-react';
 
 interface FlowChainProps {

@@ -1,4 +1,3 @@
-import React from 'react';
 import { GlobeIcon, PackageIcon, WrenchIcon } from 'lucide-react';
 import { PageHero } from '../components/layout/PageHero';
 import { Section } from '../components/ui/Section';

@@ -1,9 +1,9 @@
-import React from 'react';
+import { asset } from "../../utils/asset";
 import { motion, useReducedMotion } from 'framer-motion';
 import { ActionLink } from '../ui/ActionLink';
 import { trustIndicators } from '../../data/site';
 
-const HERO_IMAGE = "/2de9d861-7ec9-4f4a-8968-1b531e44772a.jpg";
+const HERO_IMAGE = asset("2de9d861-7ec9-4f4a-8968-1b531e44772a.jpg");
 
 export function Hero() {
   const reduce = useReducedMotion();

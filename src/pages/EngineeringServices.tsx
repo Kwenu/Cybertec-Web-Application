@@ -1,4 +1,4 @@
-import React from 'react';
+import { asset } from "../utils/asset";
 import { PageHero } from '../components/layout/PageHero';
 import { Section } from '../components/ui/Section';
 import { SectionHeading } from '../components/ui/SectionHeading';
@@ -9,7 +9,7 @@ import { media } from '../data/media';
 import { projects } from '../data/projects';
 import { ProjectCard } from '../components/cards/ProjectCard';
 
-const HERO = "/0bc23635-1bd3-4e3d-ac48-3b7703e92a27.jpg";
+const HERO = asset("0bc23635-1bd3-4e3d-ac48-3b7703e92a27.jpg");
 
 
 const chain = ['Supply', 'Install', 'Configure', 'Commission', 'Support'];

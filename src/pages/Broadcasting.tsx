@@ -1,4 +1,3 @@
-import React from 'react';
 import { DomainPage } from '../components/domain/DomainPage';
 import { projects } from '../data/projects';
 import { domainTaglines } from '../data/site';

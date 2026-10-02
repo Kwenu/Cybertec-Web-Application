@@ -1,4 +1,3 @@
-import React from 'react';
 import { DomainPage } from '../components/domain/DomainPage';
 
 export function SolarAgriculture() {

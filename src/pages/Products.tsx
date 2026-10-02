@@ -1,4 +1,5 @@
-import React, { useMemo, useState } from 'react';
+import { asset } from "../utils/asset";
+import { useMemo, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { SearchIcon, XIcon } from 'lucide-react';
 import { PageHero } from '../components/layout/PageHero';
@@ -9,7 +10,7 @@ import { FlowChain } from '../components/visuals/FlowChain';
 import { categories } from '../data/categories';
 import { products } from '../data/products';
 
-const HERO = "/83d2479a-ffdc-43f9-9bd8-6df71e357106.jpg";
+const HERO = asset("83d2479a-ffdc-43f9-9bd8-6df71e357106.jpg");
 
 
 export function Products() {

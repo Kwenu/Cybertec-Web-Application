@@ -1,9 +1,9 @@
-import React from 'react';
+import { asset } from "../../utils/asset";
 import { Section } from '../ui/Section';
 import { ActionLink } from '../ui/ActionLink';
 import { engineeringServices } from '../../data/site';
 
-const IMAGE = "/WhatsApp_Image_2026-09-10_at_20.34.13.jpg";
+const IMAGE = asset("WhatsApp_Image_2026-09-10_at_20.34.13.jpg");
 
 
 export function EngineeringSupport() {

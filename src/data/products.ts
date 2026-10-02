@@ -1,18 +1,19 @@
+import { asset } from "../utils/asset";
 import { Product } from '../types/catalogue';
 
-const GENERIC = "/e90a25e8-7051-4928-91d1-27171bb8fcd8.jpg";
+const GENERIC = asset("e90a25e8-7051-4928-91d1-27171bb8fcd8.jpg");
 
-const TELECOM = "/3375e836-9ae9-459c-913c-8bb2301ba363.jpg";
+const TELECOM = asset("3375e836-9ae9-459c-913c-8bb2301ba363.jpg");
 
-const BROADCAST = "/2275d752-b30e-4ec8-bb13-9efdc692bf8b.jpg";
+const BROADCAST = asset("2275d752-b30e-4ec8-bb13-9efdc692bf8b.jpg");
 
-const NETWORK = "/8126f08d-b35f-4e6d-b78c-6ea7d945246b.jpg";
+const NETWORK = asset("8126f08d-b35f-4e6d-b78c-6ea7d945246b.jpg");
 
-const SOLAR = "/283d1c79-7202-468a-9033-b197f0f5b2e8.jpg";
+const SOLAR = asset("283d1c79-7202-468a-9033-b197f0f5b2e8.jpg");
 
-const INFRA = "/83d2479a-ffdc-43f9-9bd8-6df71e357106.jpg";
+const INFRA = asset("83d2479a-ffdc-43f9-9bd8-6df71e357106.jpg");
 
-const SPECIAL = "/1d2bc14a-94da-444d-8035-8c4e550e2b15.jpg";
+const SPECIAL = asset("1d2bc14a-94da-444d-8035-8c4e550e2b15.jpg");
 
 
 /**
