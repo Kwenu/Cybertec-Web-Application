@@ -40,7 +40,7 @@ export function Projects() {
         breadcrumb={[{ label: 'Home', to: '/' }, { label: 'Project Experience' }]} />
       
 
-      <Section tone="white">
+      <Section tone="light">
         <div
           className="flex flex-wrap gap-2 border-b border-navy-900/10 pb-8"
           role="group"

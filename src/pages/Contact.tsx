@@ -20,7 +20,7 @@ export function Contact() {
         </ActionLink>
       </PageHero>
 
-      <Section tone="white">
+      <Section tone="light">
         <div className="grid gap-12 lg:grid-cols-[1fr_1.3fr]">
           <div>
             <h2 className="font-display text-2xl font-semibold text-navy-900">

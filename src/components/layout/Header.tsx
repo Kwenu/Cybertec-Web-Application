@@ -144,7 +144,7 @@ export function Header() {
               ))}
               <Link
                 to="/quote"
-                className="mt-2 rounded-sm bg-brand-500 px-3 py-3 text-center font-display text-sm font-semibold uppercase tracking-[0.08em] text-white sm:col-span-2"
+                className="mt-6 inline-justify-center rounded-sm bg-brand-500 px-5 py-3 font-display text-[13px] font-semibold uppercase tracking-[0.08em] text-white transition-colors duration-200 ease-smooth hover:bg-brand-600"
               >
                 Request a Quote
               </Link>

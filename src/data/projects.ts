@@ -1,10 +1,6 @@
 import { Project } from '../types/catalogue';
 import { media } from './media';
 
-/**
- * Project experience from Cybertec's published case studies and recent
- * project announcements. `recent` marks the latest announcements.
- */
 export const projects: Project[] = [
 {
   slug: 'aasl-ip-communication',

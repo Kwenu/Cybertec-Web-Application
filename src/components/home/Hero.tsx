@@ -18,7 +18,7 @@ export function Hero() {
 
   return (
     <>
-      <section className="relative isolate overflow-hidden bg-navy-950">
+      <section className="relative isolate overflow-hidden bg-navy-550">
         <img
           src={HERO_IMAGE}
           alt="Boxed and crated technology equipment staged beside rows of network racks in a distribution facility, with a container port visible beyond the glass wall."
@@ -26,14 +26,14 @@ export function Hero() {
         
         <span
           aria-hidden="true"
-          className="absolute inset-0 bg-navy-950/82" />
+          className="absolute inset-0 bg-navy-950/55" />
         
 
-        <div className="relative mx-auto max-w-content px-6 py-24 lg:py-32">
+        <div className="relative mx-auto max-w-content px-6 py-24 lg:py-21">
           <div className="max-w-2xl">
             <motion.p
               {...fade(0)}
-              className="font-display text-[11px] uppercase tracking-[0.24em] text-brand-300">
+              className="font-display text-[11px] uppercase tracking-[0.24em] text-brand-100">
               
               Technology &amp; Equipment Supply · Manufacturer Representation
             </motion.p>
@@ -57,7 +57,7 @@ export function Hero() {
 
             <motion.p
               {...fade(0.14)}
-              className="mt-4 max-w-xl text-sm leading-relaxed text-white/55">
+              className="mt-4 max-w-xl text-sm leading-relaxed text-white/90">
               
               Cybertec Enterprises supplies technology and infrastructure
               solutions from global manufacturers across telecommunications,
@@ -90,5 +90,4 @@ export function Hero() {
         </ul>
       </div>
     </>);
-
 }

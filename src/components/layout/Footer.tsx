@@ -17,23 +17,23 @@ const company = [
 
 export function Footer() {
   return (
-    <footer className="bg-navy-950 text-white">
+    <footer className="bg-white-950 text-white">
       <div className="mx-auto max-w-content px-6 py-16">
         <div className="grid gap-12 lg:grid-cols-[1.3fr_1fr_1fr_1fr]">
           <div>
             <Logo tone="light" />
-            <p className="mt-6 max-w-sm text-sm leading-relaxed text-white/60">
+            <p className="mt-6 max-w-sm text-sm leading-relaxed text-black/50">
               Cybertec Enterprises supplies technology and infrastructure
               solutions from global manufacturers, and provides the engineering
               capability required to deploy and support them.
             </p>
-            <p className="mt-6 font-display text-sm font-semibold text-brand-200">
+            <p className="mt-6 font-display text-sm font-semibold text-brand-400">
               Global Technology. Trusted Supply. Engineering Excellence.
             </p>
           </div>
 
           <div>
-            <h2 className="font-display text-[11px] uppercase tracking-[0.2em] text-white/40">
+            <h2 className="font-display text-[11px] uppercase tracking-[0.2em] text-black/100">
               Technology
             </h2>
             <ul className="mt-5 space-y-3">
@@ -41,7 +41,7 @@ export function Footer() {
                 <li key={category.id}>
                   <Link
                     to={`/products?category=${category.id}`}
-                    className="text-sm text-white/75 transition-colors duration-150 ease-smooth hover:text-white"
+                    className="text-sm text-black/50 transition-colors duration-150 ease-smooth hover:text-black"
                   >
                     {category.shortTitle}
                   </Link>
@@ -51,7 +51,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h2 className="font-display text-[11px] uppercase tracking-[0.2em] text-white/40">
+            <h2 className="font-display text-[11px] uppercase tracking-[0.2em] text-black/100">
               Company
             </h2>
             <ul className="mt-5 space-y-3">
@@ -59,7 +59,7 @@ export function Footer() {
                 <li key={item.label}>
                   <Link
                     to={item.to}
-                    className="text-sm text-white/75 transition-colors duration-150 ease-smooth hover:text-white"
+                    className="text-sm text-black/50 transition-colors duration-150 ease-smooth hover:text-black"
                   >
                     {item.label}
                   </Link>
@@ -69,10 +69,10 @@ export function Footer() {
           </div>
 
           <div>
-            <h2 className="font-display text-[11px] uppercase tracking-[0.2em] text-white/40">
+            <h2 className="font-display text-[11px] uppercase tracking-[0.2em] text-black/100">
               Contact
             </h2>
-            <ul className="mt-5 space-y-4 text-sm text-white/75">
+            <ul className="mt-5 space-y-4 text-sm text-black/50">
               <li className="flex items-start gap-3">
                 <MailIcon
                   className="mt-0.5 h-4 w-4 text-brand-300"
@@ -80,7 +80,7 @@ export function Footer() {
                 />
                 <a
                   href={`mailto:${contactDetails.email}`}
-                  className="transition-colors duration-150 ease-smooth hover:text-white"
+                  className="transition-colors duration-150 ease-smooth hover:text-black"
                 >
                   {contactDetails.email}
                 </a>
@@ -95,7 +95,7 @@ export function Footer() {
                     <a
                       key={phone}
                       href={`tel:${phone.replace(/\s/g, "")}`}
-                      className="transition-colors duration-150 ease-smooth hover:text-white"
+                      className="transition-colors duration-150 ease-smooth hover:text-black"
                     >
                       {phone}
                     </a>
@@ -126,7 +126,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-14 flex flex-col gap-3 border-t border-white/10 pt-6 text-xs text-white/45 sm:flex-row sm:items-center sm:justify-between">
+        <div className="mt-14 flex flex-col gap-3 border-t border-black/10 pt-6 text-xs text-black/80 sm:flex-row sm:items-center sm:justify-between">
           <p>
             © {new Date().getFullYear()} {contactDetails.company}. Established{" "}
             {contactDetails.established}.
@@ -136,7 +136,7 @@ export function Footer() {
             services
           </p>
           <div className="flex items-center gap-2 ml-0 sm:ml-4">
-            <span className="text-xs text-white/40">
+            <span className="text-xs text-black/80">
               Designed & Developed by
             </span>
             <a

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { CheckCircle2Icon, Loader2Icon } from 'lucide-react';
 import { categories } from '../../data/categories';
 import { products } from '../../data/products';
+import emailjs from '@emailjs/browser';
 
 type Status = 'idle' | 'submitting' | 'success' | 'error';
 
@@ -33,18 +34,39 @@ export function RequirementForm({
   isDark ? 'text-white/60' : 'text-navy-900/55'}`;
 
 
-  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
-    const form = event.currentTarget;
-    setStatus('submitting');
-    window.setTimeout(() => {
-      if (!form.checkValidity()) {
-        setStatus('error');
-        return;
+const handleSubmit = async (
+  event: React.FormEvent<HTMLFormElement>
+) => {
+  event.preventDefault();
+
+  const form = event.currentTarget;
+
+  if (!form.checkValidity()) {
+    form.reportValidity();
+    setStatus('error');
+    return;
+  }
+
+  setStatus('submitting');
+
+  try {
+    await emailjs.sendForm(
+      'service_gfoyuef',
+      'template_vf4nrrc',
+      form,
+      {
+        publicKey: 'nNdsp-bZ-2YDpy324',
       }
-      setStatus('success');
-    }, 700);
-  };
+    );
+
+    setStatus('success');
+    form.reset();
+
+  } catch (error) {
+    console.error('EmailJS error:', error);
+    setStatus('error');
+  }
+};
 
   if (status === 'success') {
     return (
