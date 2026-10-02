@@ -56,10 +56,12 @@ function NotFound() {
 
 export function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Cybertec-Web-Application">
       <div className="flex min-h-screen w-full flex-col bg-white">
         <ScrollToTop />
+
         <Header />
+
         <div className="flex-1">
           <Routes>
             <Route path="/" element={<Home />} />
@@ -68,23 +70,32 @@ export function App() {
             <Route path="/products/:slug" element={<ProductDetail />} />
             <Route path="/partners" element={<Partners />} />
             <Route path="/solutions" element={<Solutions />} />
-            <Route path="/engineering-services" element={<EngineeringServices />} />
+            <Route
+              path="/engineering-services"
+              element={<EngineeringServices />}
+            />
             <Route path="/projects" element={<Projects />} />
             <Route path="/clients" element={<Clients />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/quote" element={<Quote />} />
-            <Route path="/telecommunication" element={<Telecommunication />} />
+            <Route
+              path="/telecommunication"
+              element={<Telecommunication />}
+            />
             <Route path="/broadcasting" element={<Broadcasting />} />
             <Route
               path="/enterprise-networking"
-              element={<EnterpriseNetworking />} />
-            
-            <Route path="/solar-agriculture" element={<SolarAgriculture />} />
+              element={<EnterpriseNetworking />}
+            />
+            <Route
+              path="/solar-agriculture"
+              element={<SolarAgriculture />}
+            />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
         <Footer />
       </div>
-    </BrowserRouter>);
-
+    </BrowserRouter>
+  );
 }
