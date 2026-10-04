@@ -1,1 +1,1 @@
-# Official Website for Cyberted Enterprises (Pvt) Ltd
+# Official Website for Cybertec Enterprises (Pvt) Ltd
